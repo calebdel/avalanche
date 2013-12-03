@@ -1,0 +1,120 @@
+   
+<%= javascript_include_tag "jquery" %>
+    <!-- Header and Nav -->
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="panel">
+        <h1>Feed Template</h1>
+      </div>
+    </div>
+  </div>
+  <!-- End Header and Nav -->
+  <div class="row">
+ <!-- Nav Sidebar -->
+    <!-- Main Feed -->
+    <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+    <div class="large-7 columns">
+ 
+      <!-- Feed Entry -->
+      <% @observations.each do |observation| %>
+      <div class="row">
+        <div class="large-2 columns small-3"><%= image_tag observation.photo %></div>
+        <div class="large-10 columns">
+          <p><%= image_tag observation.photo %></p>
+          <p><%= observation.description %></p>
+          <ul class="inline-list">
+            <li><a href="">Reply</a></li>
+            <li><a href="">Share</a></li>
+          </ul>
+ 
+ 
+          <h6>2 Comments</h6>
+          <div class="row">
+            <div class="large-2 columns small-3"><img src="http://placehold.it/50x50&text=[img]" /></div>
+            <div class="large-10 columns"><p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit</p></div>
+          </div>
+          <div class="row">
+            <div class="large-2 columns small-3"><img src="http://placehold.it/50x50&text=[img]" /></div>
+            <div class="large-10 columns"><p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit</p></div>
+          </div>
+        </div>
+      </div>
+      <% end %>
+
+      <!-- End Feed Entry -->
+ 
+      <hr />
+ 
+      <!-- Feed Entry -->
+      
+ 
+    </div>
+ 
+    <!-- Right Sidebar -->
+    <!-- On small devices this column is hidden -->
+    <aside class="large-5 columns">
+      <div class="panel">
+          <h3>Forecast</h3>
+          <canvas  id="myChart" width="auto" height="auto"></canvas>
+          <a href="#" class="small button">Full Forecast</a>
+      </div>
+    </aside>
+ 
+  </div>
+ 
+ 
+  <!-- Footer -->
+ 
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-5 columns">
+          <p>© Copyright no one at all. Go to town.</p>
+        </div>
+        <div class="large-7 columns">
+          <ul class="inline-list right">
+            <li><a href="#">Section 1</a></li>
+            <li><a href="#">Section 2</a></li>
+            <li><a href="#">Section 3</a></li>
+            <li><a href="#">Section 4</a></li>
+            <li><a href="#">Section 5</a></li>
+            <li><a href="#">Section 6</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+<%= include_gon %>
+  <script>
+ $(document).ready(function() {
+var data = {
+  labels : [gon.timearray1,gon.timearray2,gon.timearray3],
+  datasets : [
+    {
+      fillColor : "rgba(220,220,220,0.5)",
+      strokeColor : "rgba(220,220,220,1)",
+      data : [gon.alp1,gon.alp2,gon.alp3]
+    },
+    {
+      fillColor : "rgba(151,187,205,0.5)",
+      strokeColor : "rgba(151,187,205,1)",
+      data : [gon.tln1,gon.tln2,gon.tln3]
+    },
+       {
+      fillColor : "rgba(50,40,220,0.5)",
+      strokeColor : "rgba(220,220,220,1)",
+      data : [gon.btl1,gon.btl2,gon.btl3]
+    },
+    
+  ]
+
+}
+
+var ctx = document.getElementById("myChart").getContext("2d");
+var myNewChart = new Chart(ctx).Bar(data,options);
+  });
+
+  </script>
+
+    

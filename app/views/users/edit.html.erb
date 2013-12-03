@@ -1,0 +1,33 @@
+<div class="row">
+ 
+<div class="large-6 small-centered columns">
+    <fieldset>
+
+<h1>User Registration</h1>
+ 
+<%= form_for @user do |f| %>
+  <% if @user.errors.any? %>
+    <ul>
+    <% @user.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  <% end %>
+ 
+  <p><%= f.label :name %><br>
+  <%= f.text_field :name%></p>
+ 
+  <p><%= f.label :email %><br>
+  <%= f.email_field :email%></p>
+ 
+  <p><%= f.label :phone %><br>
+  <%= f.telephone_field :phone%></p>
+ 
+  <%= f.submit %>
+<% end %>
+
+    </fieldset>  
+  </div>
+</div>
+
+

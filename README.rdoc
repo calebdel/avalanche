@@ -1,0 +1,13 @@
+== README
+
+Allows user to send SMS message to (604) 227-2070 to recieve SMS avalanche forecast for Glacier National Park near Revelstoke B.C.
+
+Built with Twilio API.
+
+Forecast API from http://avalanche.pc.gc.ca/CAAML-eng.aspx?d=TODAY&r=3
+
+TO DO:
+
+Add other National Park Forecasts.
+Add location based forecasts via user SMS.
+Add detailed forecast data.

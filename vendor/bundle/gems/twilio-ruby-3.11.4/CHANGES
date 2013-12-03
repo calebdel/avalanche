@@ -1,0 +1,31 @@
+twilio-ruby changelog
+=====================
+
+Version 3.11.3
+
+Released October 15, 2013
+
+- Restore support for versions of Ruby other than 2.0.0, which the
+previous release removed.
+
+Version 3.11.2
+
+Released October 15, 2013
+
+- Restore ability of `sms.messages` to make requests to /SMS/Messages.
+
+Version 3.11.1
+--------------
+
+Released September 24, 2013
+
+- Fix a bug causing request the new messages class to fail.
+
+Version 3.11.0
+-------------
+
+Released September 18, 2013
+
+- Add MMS support.
+- Add SIP-In support.
+- Add docs.
