@@ -23,7 +23,7 @@ gem 'carrierwave'
 gem "mini_magick"
 gem 'chart-js-rails'
 gem 'gon'
-
+gem 'acts-as-taggable-on'
 gem "nokogiri", "~> 1.6.0"
 
 # http://foundation.zurb.com/docs/rails.html
