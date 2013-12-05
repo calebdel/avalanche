@@ -4,23 +4,29 @@
     require 'nokogiri'
   def index
     process_sms
+    create
   end
 
   def new
   end
 
   def create
-
+    @observation = Observation.create(mms_params)
+    
   end
 
   def show
   end
  
   def process_sms
-    @city = params[:FromCity].capitalize
-    @state = params[:FromState]
+ 
     @from = params[:From]
     @media = params[:MediaUrl0]
+    @Mediatype = params[:MediaContentType0]
+    @body = params[:Body]
+
+
+    # Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MM9cea0f0c13095dbcee50bdcca2d772fc", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MM9cea0f0c13095dbcee50bdcca2d772fc", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>"", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MM9cea0f0c13095dbcee50bdcca2d772fc", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MM9cea0f0c13095dbcee50bdcca2d772fc/Media/ME2705ac1f43e98234a1fd29c8553506cc", "ApiVersion"=>"2010-04-01"}
     # u = User.find_by_phone_number(@from)
     # @user = u.name
     # b = params[:Body]
@@ -39,9 +45,11 @@
 #     @type = "Not sure"
     forecast
     render 'response.xml.erb', :content_type => 'text/xml'
-end
+  end
   
-
+  def mms_params
+    params.permit(:From, :MediaUrl0, :MediaContentType0, :Body)
+  end
 end
   def forecast
 

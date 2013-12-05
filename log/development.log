@@ -49476,3 +49476,2499 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-02 19:39:11
 
 Started GET "/auth/facebook" for 127.0.0.1 at 2013-12-02 19:39:14 -0800
 (facebook) Request phase initiated.
+
+
+Started GET "/twilio?AccountSid=ACfd6d259169da6e7b70c24d25eefba271&MessageSid=SM2049892b22d8a501c403e48b4110353d&Body=Vv&ToZip=&ToCity=RICHMOND&FromState=BC&ToState=BC&SmsSid=SM2049892b22d8a501c403e48b4110353d&To=%2B16042272070&ToCountry=CA&FromCountry=CA&SmsMessageSid=SM2049892b22d8a501c403e48b4110353d&ApiVersion=2010-04-01&FromCity=VANCOUVER&SmsStatus=received&NumMedia=0&From=%2B16047203860&FromZip=" for 127.0.0.1 at 2013-12-04 15:38:20 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TwilioController#index as HTML
+  Parameters: {"AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "MessageSid"=>"SM2049892b22d8a501c403e48b4110353d", "Body"=>"Vv", "ToZip"=>"", "ToCity"=>"RICHMOND", "FromState"=>"BC", "ToState"=>"BC", "SmsSid"=>"SM2049892b22d8a501c403e48b4110353d", "To"=>"+16042272070", "ToCountry"=>"CA", "FromCountry"=>"CA", "SmsMessageSid"=>"SM2049892b22d8a501c403e48b4110353d", "ApiVersion"=>"2010-04-01", "FromCity"=>"VANCOUVER", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16047203860", "FromZip"=>""}
+  Rendered twilio/response.xml.erb (1.6ms)
+Completed 200 OK in 99ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-04 15:40:40 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 374ms (Views: 363.2ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 86ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/send_text.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/snow.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/twilio.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:41 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:42 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:42 -0800
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:42 -0800
+
+
+Started GET "/assets/verfications.js?body=1" for 127.0.0.1 at 2013-12-04 15:40:42 -0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-12-04 15:40:43 -0800
+(facebook) Request phase initiated.
+
+
+Started GET "/twilio?AccountSid=ACfd6d259169da6e7b70c24d25eefba271&MessageSid=SMbea53ed3570164bb69138243812f7d1c&Body=F%3F+%0A%0A%0A%0A%0A%0A%0A%0AHj&ToZip=&ToCity=RICHMOND&FromState=BC&ToState=BC&SmsSid=SMbea53ed3570164bb69138243812f7d1c&To=%2B16042272070&ToCountry=CA&FromCountry=CA&SmsMessageSid=SMbea53ed3570164bb69138243812f7d1c&ApiVersion=2010-04-01&FromCity=VANCOUVER&SmsStatus=received&NumMedia=0&From=%2B16047203860&FromZip=" for 127.0.0.1 at 2013-12-04 15:58:04 -0800
+Processing by TwilioController#index as HTML
+  Parameters: {"AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "MessageSid"=>"SMbea53ed3570164bb69138243812f7d1c", "Body"=>"F? \n\n\n\n\n\n\n\nHj", "ToZip"=>"", "ToCity"=>"RICHMOND", "FromState"=>"BC", "ToState"=>"BC", "SmsSid"=>"SMbea53ed3570164bb69138243812f7d1c", "To"=>"+16042272070", "ToCountry"=>"CA", "FromCountry"=>"CA", "SmsMessageSid"=>"SMbea53ed3570164bb69138243812f7d1c", "ApiVersion"=>"2010-04-01", "FromCity"=>"VANCOUVER", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16047203860", "FromZip"=>""}
+  Rendered twilio/response.xml.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twilio?AccountSid=ACfd6d259169da6e7b70c24d25eefba271&MessageSid=SMb8018792cb35532f9ec3a7b14d415966&Body=A&ToZip=&ToCity=RICHMOND&FromState=BC&ToState=BC&SmsSid=SMb8018792cb35532f9ec3a7b14d415966&To=%2B16042272070&ToCountry=CA&FromCountry=CA&SmsMessageSid=SMb8018792cb35532f9ec3a7b14d415966&ApiVersion=2010-04-01&FromCity=VANCOUVER&SmsStatus=received&NumMedia=0&From=%2B16047203860&FromZip=" for 127.0.0.1 at 2013-12-04 18:03:30 -0800
+Processing by TwilioController#index as HTML
+  Parameters: {"AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "MessageSid"=>"SMb8018792cb35532f9ec3a7b14d415966", "Body"=>"A", "ToZip"=>"", "ToCity"=>"RICHMOND", "FromState"=>"BC", "ToState"=>"BC", "SmsSid"=>"SMb8018792cb35532f9ec3a7b14d415966", "To"=>"+16042272070", "ToCountry"=>"CA", "FromCountry"=>"CA", "SmsMessageSid"=>"SMb8018792cb35532f9ec3a7b14d415966", "ApiVersion"=>"2010-04-01", "FromCity"=>"VANCOUVER", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16047203860", "FromZip"=>""}
+  Rendered twilio/response.xml.erb (0.1ms)
+Completed 200 OK in 200ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twilio?AccountSid=ACfd6d259169da6e7b70c24d25eefba271&MessageSid=SMe7ba4f49b9cc8dccf634482f1970a025&Body=Gg&ToZip=&ToCity=RICHMOND&FromState=BC&ToState=BC&SmsSid=SMe7ba4f49b9cc8dccf634482f1970a025&To=%2B16042272070&ToCountry=CA&FromCountry=CA&SmsMessageSid=SMe7ba4f49b9cc8dccf634482f1970a025&ApiVersion=2010-04-01&FromCity=VANCOUVER&SmsStatus=received&NumMedia=0&From=%2B16047203860&FromZip=" for 127.0.0.1 at 2013-12-04 18:05:14 -0800
+Processing by TwilioController#index as HTML
+  Parameters: {"AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "MessageSid"=>"SMe7ba4f49b9cc8dccf634482f1970a025", "Body"=>"Gg", "ToZip"=>"", "ToCity"=>"RICHMOND", "FromState"=>"BC", "ToState"=>"BC", "SmsSid"=>"SMe7ba4f49b9cc8dccf634482f1970a025", "To"=>"+16042272070", "ToCountry"=>"CA", "FromCountry"=>"CA", "SmsMessageSid"=>"SMe7ba4f49b9cc8dccf634482f1970a025", "ApiVersion"=>"2010-04-01", "FromCity"=>"VANCOUVER", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16047203860", "FromZip"=>""}
+  Rendered twilio/response.xml.erb (0.8ms)
+Completed 200 OK in 81ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twilio?AccountSid=ACfd6d259169da6e7b70c24d25eefba271&MessageSid=SMfb1601a29337b128d482e0835120edb7&Body=F&ToZip=&ToCity=RICHMOND&FromState=BC&ToState=BC&SmsSid=SMfb1601a29337b128d482e0835120edb7&To=%2B16042272070&ToCountry=CA&FromCountry=CA&SmsMessageSid=SMfb1601a29337b128d482e0835120edb7&ApiVersion=2010-04-01&FromCity=VANCOUVER&SmsStatus=received&NumMedia=0&From=%2B16047203860&FromZip=" for 127.0.0.1 at 2013-12-04 18:05:31 -0800
+Processing by TwilioController#index as HTML
+  Parameters: {"AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "MessageSid"=>"SMfb1601a29337b128d482e0835120edb7", "Body"=>"F", "ToZip"=>"", "ToCity"=>"RICHMOND", "FromState"=>"BC", "ToState"=>"BC", "SmsSid"=>"SMfb1601a29337b128d482e0835120edb7", "To"=>"+16042272070", "ToCountry"=>"CA", "FromCountry"=>"CA", "SmsMessageSid"=>"SMfb1601a29337b128d482e0835120edb7", "ApiVersion"=>"2010-04-01", "FromCity"=>"VANCOUVER", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16047203860", "FromZip"=>""}
+  Rendered twilio/response.xml.erb (0.1ms)
+Completed 200 OK in 82ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twilio?AccountSid=ACfd6d259169da6e7b70c24d25eefba271&MessageSid=SMdc1a8b25c967a4ee3344a34dd18712c9&Body=%3A-%29+&ToZip=&ToCity=RICHMOND&FromState=BC&ToState=BC&SmsSid=SMdc1a8b25c967a4ee3344a34dd18712c9&To=%2B16042272070&ToCountry=CA&FromCountry=CA&SmsMessageSid=SMdc1a8b25c967a4ee3344a34dd18712c9&ApiVersion=2010-04-01&FromCity=VANCOUVER&SmsStatus=received&NumMedia=0&From=%2B16047203860&FromZip=" for 127.0.0.1 at 2013-12-04 18:13:16 -0800
+Processing by TwilioController#index as HTML
+  Parameters: {"AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "MessageSid"=>"SMdc1a8b25c967a4ee3344a34dd18712c9", "Body"=>":-) ", "ToZip"=>"", "ToCity"=>"RICHMOND", "FromState"=>"BC", "ToState"=>"BC", "SmsSid"=>"SMdc1a8b25c967a4ee3344a34dd18712c9", "To"=>"+16042272070", "ToCountry"=>"CA", "FromCountry"=>"CA", "SmsMessageSid"=>"SMdc1a8b25c967a4ee3344a34dd18712c9", "ApiVersion"=>"2010-04-01", "FromCity"=>"VANCOUVER", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16047203860", "FromZip"=>""}
+  Rendered twilio/response.xml.erb (0.8ms)
+Completed 200 OK in 87ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MM9cea0f0c13095dbcee50bdcca2d772fc&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MM9cea0f0c13095dbcee50bdcca2d772fc&FromState=BC&FromCity=VANCOUVER&Body=&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MM9cea0f0c13095dbcee50bdcca2d772fc&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMM9cea0f0c13095dbcee50bdcca2d772fc%2FMedia%2FME2705ac1f43e98234a1fd29c8553506cc&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-04 18:20:34 -0800
+Processing by TwilioController#index as */*
+  Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MM9cea0f0c13095dbcee50bdcca2d772fc", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MM9cea0f0c13095dbcee50bdcca2d772fc", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>"", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MM9cea0f0c13095dbcee50bdcca2d772fc", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MM9cea0f0c13095dbcee50bdcca2d772fc/Media/ME2705ac1f43e98234a1fd29c8553506cc", "ApiVersion"=>"2010-04-01"}
+  Rendered twilio/response.xml.erb (0.5ms)
+Completed 200 OK in 492ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddColumnsToObservation (20131205023731)
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddColumnsToObservation (20131205023731)
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddColumnsToObservation (20131205023731)
+  [1m[35m (1.2ms)[0m  BEGIN
+  [1m[36m (19.4ms)[0m  [1mALTER TABLE "observations" ADD COLUMN "From" character varying(255)[0m
+  [1m[35m (0.8ms)[0m  ALTER TABLE "observations" ADD COLUMN "MediaUrl0" character varying(255)
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "observations" ADD COLUMN "MediaContentType0" character varying(255)[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "observations" ADD COLUMN "Body" character varying(255)
+  [1m[36mSQL (6.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131205023731"]]
+  [1m[35m (3.2ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MMf087e5fae565f6907d68f0ff5c7a4052&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MMf087e5fae565f6907d68f0ff5c7a4052&FromState=BC&FromCity=VANCOUVER&Body=&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MMf087e5fae565f6907d68f0ff5c7a4052&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMMf087e5fae565f6907d68f0ff5c7a4052%2FMedia%2FMEbda9c6c352a1e86f794c361c56c39a8b&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-04 18:44:36 -0800
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by TwilioController#index as */*
+  Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MMf087e5fae565f6907d68f0ff5c7a4052", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MMf087e5fae565f6907d68f0ff5c7a4052", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>"", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MMf087e5fae565f6907d68f0ff5c7a4052", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MMf087e5fae565f6907d68f0ff5c7a4052/Media/MEbda9c6c352a1e86f794c361c56c39a8b", "ApiVersion"=>"2010-04-01"}
+  Rendered twilio/response.xml.erb (0.1ms)
+Completed 400 Bad Request in 554ms
+
+ActionController::ParameterMissing (param not found: observation):
+  app/controllers/twilio_controller.rb:55:in `mms_params'
+  app/controllers/twilio_controller.rb:14:in `create'
+  app/controllers/twilio_controller.rb:7:in `index'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.1ms)
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MM46943fe2d82a47df785e2494fb7268f3&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MM46943fe2d82a47df785e2494fb7268f3&FromState=BC&FromCity=VANCOUVER&Body=&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MM46943fe2d82a47df785e2494fb7268f3&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMM46943fe2d82a47df785e2494fb7268f3%2FMedia%2FMEbfffdd577413b9222ba536788be7683d&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-04 18:45:36 -0800
+Processing by TwilioController#index as */*
+  Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MM46943fe2d82a47df785e2494fb7268f3", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MM46943fe2d82a47df785e2494fb7268f3", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>"", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MM46943fe2d82a47df785e2494fb7268f3", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MM46943fe2d82a47df785e2494fb7268f3/Media/MEbfffdd577413b9222ba536788be7683d", "ApiVersion"=>"2010-04-01"}
+  Rendered twilio/response.xml.erb (0.1ms)
+Completed 400 Bad Request in 85ms
+
+ActionController::ParameterMissing (param not found: observation):
+  app/controllers/twilio_controller.rb:55:in `mms_params'
+  app/controllers/twilio_controller.rb:14:in `create'
+  app/controllers/twilio_controller.rb:7:in `index'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (41.5ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started GET "/twilio?AccountSid=ACfd6d259169da6e7b70c24d25eefba271&MessageSid=SMe3ea7aaecc5eea56244f4b3541d8d176&Body=Hhv&ToZip=&ToCity=RICHMOND&FromState=BC&ToState=BC&SmsSid=SMe3ea7aaecc5eea56244f4b3541d8d176&To=%2B16042272070&ToCountry=CA&FromCountry=CA&SmsMessageSid=SMe3ea7aaecc5eea56244f4b3541d8d176&ApiVersion=2010-04-01&FromCity=VANCOUVER&SmsStatus=received&NumMedia=0&From=%2B16047203860&FromZip=" for 127.0.0.1 at 2013-12-04 18:46:59 -0800
+Processing by TwilioController#index as HTML
+  Parameters: {"AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "MessageSid"=>"SMe3ea7aaecc5eea56244f4b3541d8d176", "Body"=>"Hhv", "ToZip"=>"", "ToCity"=>"RICHMOND", "FromState"=>"BC", "ToState"=>"BC", "SmsSid"=>"SMe3ea7aaecc5eea56244f4b3541d8d176", "To"=>"+16042272070", "ToCountry"=>"CA", "FromCountry"=>"CA", "SmsMessageSid"=>"SMe3ea7aaecc5eea56244f4b3541d8d176", "ApiVersion"=>"2010-04-01", "FromCity"=>"VANCOUVER", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16047203860", "FromZip"=>""}
+  Rendered twilio/response.xml.erb (0.1ms)
+Completed 400 Bad Request in 91ms
+
+ActionController::ParameterMissing (param not found: observation):
+  app/controllers/twilio_controller.rb:55:in `mms_params'
+  app/controllers/twilio_controller.rb:14:in `create'
+  app/controllers/twilio_controller.rb:7:in `index'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.9ms)
+
+
+Started GET "/twilio?AccountSid=ACfd6d259169da6e7b70c24d25eefba271&MessageSid=SM9706d340234ee9f455c17174b784d607&Body=HHH&ToZip=&ToCity=RICHMOND&FromState=BC&ToState=BC&SmsSid=SM9706d340234ee9f455c17174b784d607&To=%2B16042272070&ToCountry=CA&FromCountry=CA&SmsMessageSid=SM9706d340234ee9f455c17174b784d607&ApiVersion=2010-04-01&FromCity=VANCOUVER&SmsStatus=received&NumMedia=0&From=%2B16047203860&FromZip=" for 127.0.0.1 at 2013-12-04 18:47:29 -0800
+Processing by TwilioController#index as HTML
+  Parameters: {"AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "MessageSid"=>"SM9706d340234ee9f455c17174b784d607", "Body"=>"HHH", "ToZip"=>"", "ToCity"=>"RICHMOND", "FromState"=>"BC", "ToState"=>"BC", "SmsSid"=>"SM9706d340234ee9f455c17174b784d607", "To"=>"+16042272070", "ToCountry"=>"CA", "FromCountry"=>"CA", "SmsMessageSid"=>"SM9706d340234ee9f455c17174b784d607", "ApiVersion"=>"2010-04-01", "FromCity"=>"VANCOUVER", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16047203860", "FromZip"=>""}
+  Rendered twilio/response.xml.erb (0.1ms)
+Completed 500 Internal Server Error in 85ms
+
+ArgumentError (wrong number of arguments (4 for 0..2)):
+  app/controllers/twilio_controller.rb:14:in `create'
+  app/controllers/twilio_controller.rb:7:in `index'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.6ms)
+
+
+Started GET "/twilio?AccountSid=ACfd6d259169da6e7b70c24d25eefba271&MessageSid=SM64dcfdc98a6b47ed1ffdb64ed86f721c&Body=Gbh&ToZip=&ToCity=RICHMOND&FromState=BC&ToState=BC&SmsSid=SM64dcfdc98a6b47ed1ffdb64ed86f721c&To=%2B16042272070&ToCountry=CA&FromCountry=CA&SmsMessageSid=SM64dcfdc98a6b47ed1ffdb64ed86f721c&ApiVersion=2010-04-01&FromCity=VANCOUVER&SmsStatus=received&NumMedia=0&From=%2B16047203860&FromZip=" for 127.0.0.1 at 2013-12-04 18:48:48 -0800
+Processing by TwilioController#index as HTML
+  Parameters: {"AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "MessageSid"=>"SM64dcfdc98a6b47ed1ffdb64ed86f721c", "Body"=>"Gbh", "ToZip"=>"", "ToCity"=>"RICHMOND", "FromState"=>"BC", "ToState"=>"BC", "SmsSid"=>"SM64dcfdc98a6b47ed1ffdb64ed86f721c", "To"=>"+16042272070", "ToCountry"=>"CA", "FromCountry"=>"CA", "SmsMessageSid"=>"SM64dcfdc98a6b47ed1ffdb64ed86f721c", "ApiVersion"=>"2010-04-01", "FromCity"=>"VANCOUVER", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16047203860", "FromZip"=>""}
+  Rendered twilio/response.xml.erb (0.1ms)
+Completed 500 Internal Server Error in 84ms
+
+ArgumentError (wrong number of arguments (4 for 1)):
+  app/controllers/twilio_controller.rb:14:in `create'
+  app/controllers/twilio_controller.rb:7:in `index'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.6ms)
+
+
+Started GET "/twilio?AccountSid=ACfd6d259169da6e7b70c24d25eefba271&MessageSid=SM5cc995b460aa072de71f416c54d6147c&Body=Hnd&ToZip=&ToCity=RICHMOND&FromState=BC&ToState=BC&SmsSid=SM5cc995b460aa072de71f416c54d6147c&To=%2B16042272070&ToCountry=CA&FromCountry=CA&SmsMessageSid=SM5cc995b460aa072de71f416c54d6147c&ApiVersion=2010-04-01&FromCity=VANCOUVER&SmsStatus=received&NumMedia=0&From=%2B16047203860&FromZip=" for 127.0.0.1 at 2013-12-04 18:51:08 -0800
+Processing by TwilioController#index as HTML
+  Parameters: {"AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "MessageSid"=>"SM5cc995b460aa072de71f416c54d6147c", "Body"=>"Hnd", "ToZip"=>"", "ToCity"=>"RICHMOND", "FromState"=>"BC", "ToState"=>"BC", "SmsSid"=>"SM5cc995b460aa072de71f416c54d6147c", "To"=>"+16042272070", "ToCountry"=>"CA", "FromCountry"=>"CA", "SmsMessageSid"=>"SM5cc995b460aa072de71f416c54d6147c", "ApiVersion"=>"2010-04-01", "FromCity"=>"VANCOUVER", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16047203860", "FromZip"=>""}
+  Rendered twilio/response.xml.erb (0.1ms)
+Unpermitted parameters: AccountSid, MessageSid, ToZip, ToCity, FromState, ToState, SmsSid, To, ToCountry, FromCountry, SmsMessageSid, ApiVersion, FromCity, SmsStatus, NumMedia, FromZip
+Completed 200 OK in 98ms (Views: 3.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MMfabe40f93615b04f042e12ddff02186a&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MMfabe40f93615b04f042e12ddff02186a&FromState=BC&FromCity=VANCOUVER&Body=%3A&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MMfabe40f93615b04f042e12ddff02186a&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMMfabe40f93615b04f042e12ddff02186a%2FMedia%2FMEf6565dc8c0aa8d594db2139b8a89cbe7&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-04 18:54:21 -0800
+Processing by TwilioController#index as */*
+  Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MMfabe40f93615b04f042e12ddff02186a", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MMfabe40f93615b04f042e12ddff02186a", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>":", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MMfabe40f93615b04f042e12ddff02186a", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MMfabe40f93615b04f042e12ddff02186a/Media/MEf6565dc8c0aa8d594db2139b8a89cbe7", "ApiVersion"=>"2010-04-01"}
+  Rendered twilio/response.xml.erb (0.1ms)
+Unpermitted parameters: ToCountry, ToState, SmsMessageSid, NumMedia, ToCity, FromZip, SmsSid, FromState, FromCity, FromCountry, To, ToZip, MessageSid, AccountSid, ApiVersion
+Completed 200 OK in 108ms (Views: 6.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MM398f22b387b9db7a201ca7208beb2b29&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MM398f22b387b9db7a201ca7208beb2b29&FromState=BC&FromCity=VANCOUVER&Body=&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MM398f22b387b9db7a201ca7208beb2b29&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMM398f22b387b9db7a201ca7208beb2b29%2FMedia%2FMEe3dc10b643f763c982eee90007b79c7c&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-05 07:48:13 -0800
+Processing by TwilioController#index as */*
+  Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MM398f22b387b9db7a201ca7208beb2b29", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MM398f22b387b9db7a201ca7208beb2b29", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>"", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MM398f22b387b9db7a201ca7208beb2b29", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MM398f22b387b9db7a201ca7208beb2b29/Media/MEe3dc10b643f763c982eee90007b79c7c", "ApiVersion"=>"2010-04-01"}
+  Rendered twilio/response.xml.erb (0.1ms)
+Completed 500 Internal Server Error in 2428ms
+
+NameError (uninitialized constant TwilioController::Sms):
+  app/controllers/twilio_controller.rb:14:in `create'
+  app/controllers/twilio_controller.rb:7:in `index'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.0ms)
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MM5cfc76f583aa025582cd6ba9f9c00e9f&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MM5cfc76f583aa025582cd6ba9f9c00e9f&FromState=BC&FromCity=VANCOUVER&Body=&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MM5cfc76f583aa025582cd6ba9f9c00e9f&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMM5cfc76f583aa025582cd6ba9f9c00e9f%2FMedia%2FMEb87614e6539d6f83f85cbddd6112a10d&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-05 07:49:57 -0800
+Processing by TwilioController#index as */*
+  Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MM5cfc76f583aa025582cd6ba9f9c00e9f", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MM5cfc76f583aa025582cd6ba9f9c00e9f", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>"", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MM5cfc76f583aa025582cd6ba9f9c00e9f", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MM5cfc76f583aa025582cd6ba9f9c00e9f/Media/MEb87614e6539d6f83f85cbddd6112a10d", "ApiVersion"=>"2010-04-01"}
+  Rendered twilio/response.xml.erb (0.1ms)
+Completed 500 Internal Server Error in 218ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: from):
+  app/controllers/twilio_controller.rb:14:in `create'
+  app/controllers/twilio_controller.rb:7:in `index'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.2ms)
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MMec92279deba8df890adbfa787accb761&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MMec92279deba8df890adbfa787accb761&FromState=BC&FromCity=VANCOUVER&Body=&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MMec92279deba8df890adbfa787accb761&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMMec92279deba8df890adbfa787accb761%2FMedia%2FME1345418eda02212bf5da0630abcd0d38&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-05 07:51:29 -0800
+Processing by TwilioController#index as */*
+  Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MMec92279deba8df890adbfa787accb761", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MMec92279deba8df890adbfa787accb761", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>"", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MMec92279deba8df890adbfa787accb761", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MMec92279deba8df890adbfa787accb761/Media/ME1345418eda02212bf5da0630abcd0d38", "ApiVersion"=>"2010-04-01"}
+  Rendered twilio/response.xml.erb (0.1ms)
+Completed 500 Internal Server Error in 103ms
+
+ArgumentError (wrong number of arguments (4 for 1)):
+  app/controllers/twilio_controller.rb:14:in `create'
+  app/controllers/twilio_controller.rb:7:in `index'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.7ms)
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MM1b4c1adbb1d01508d15ebd78d0103d48&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MM1b4c1adbb1d01508d15ebd78d0103d48&FromState=BC&FromCity=VANCOUVER&Body=&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MM1b4c1adbb1d01508d15ebd78d0103d48&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMM1b4c1adbb1d01508d15ebd78d0103d48%2FMedia%2FME6403651dc9ff44aa0a4629ef8718868c&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-05 08:29:20 -0800
+Processing by TwilioController#index as */*
+  Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MM1b4c1adbb1d01508d15ebd78d0103d48", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MM1b4c1adbb1d01508d15ebd78d0103d48", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>"", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MM1b4c1adbb1d01508d15ebd78d0103d48", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MM1b4c1adbb1d01508d15ebd78d0103d48/Media/ME6403651dc9ff44aa0a4629ef8718868c", "ApiVersion"=>"2010-04-01"}
+  Rendered twilio/response.xml.erb (0.1ms)
+  [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (26.6ms)[0m  INSERT INTO "observations" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", Thu, 05 Dec 2013 16:29:21 UTC +00:00], ["updated_at", Thu, 05 Dec 2013 16:29:21 UTC +00:00]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 576ms (Views: 9.4ms | ActiveRecord: 33.3ms)
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MM2a81f65143c863f35a8d5d3a7e730be6&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MM2a81f65143c863f35a8d5d3a7e730be6&FromState=BC&FromCity=VANCOUVER&Body=&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MM2a81f65143c863f35a8d5d3a7e730be6&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMM2a81f65143c863f35a8d5d3a7e730be6%2FMedia%2FME52f9ca1992231495a425275e16065f51&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-05 08:32:19 -0800
+
+SyntaxError (/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/app/controllers/twilio_controller.rb:14: syntax error, unexpected ')', expecting ']'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/app/controllers/twilio_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end
+  # end
+       ^):
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:424:in `load'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:424:in `block in load_file'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:616:in `new_constants_in'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:423:in `load_file'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:324:in `require_or_load'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:463:in `load_missing_constant'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:184:in `const_missing'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/inflector/methods.rb:226:in `const_get'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/inflector/methods.rb:224:in `each'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/inflector/methods.rb:224:in `inject'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/inflector/methods.rb:224:in `constantize'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:535:in `get'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:566:in `constantize'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:44:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:71:in `block in call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `each'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:680:in `call'
+  vendor/bundle/gems/omniauth-1.1.4/lib/omniauth/strategy.rb:184:in `call!'
+  vendor/bundle/gems/omniauth-1.1.4/lib/omniauth/strategy.rb:164:in `call'
+  vendor/bundle/gems/omniauth-1.1.4/lib/omniauth/builder.rb:49:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/flash.rb:241:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  vendor/bundle/gems/activerecord-4.0.1/lib/active_record/query_cache.rb:36:in `call'
+  vendor/bundle/gems/activerecord-4.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  vendor/bundle/gems/activerecord-4.0.1/lib/active_record/migration.rb:369:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:373:in `_run__970576912889079247__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/calebdelbegio/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/calebdelbegio/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/calebdelbegio/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MMdda70baca88cf5d1acadb5c94e4ad71a&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MMdda70baca88cf5d1acadb5c94e4ad71a&FromState=BC&FromCity=VANCOUVER&Body=&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MMdda70baca88cf5d1acadb5c94e4ad71a&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMMdda70baca88cf5d1acadb5c94e4ad71a%2FMedia%2FME1402a761e65a33fe46cf354f9bae282c&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-05 08:33:10 -0800
+Processing by TwilioController#index as */*
+  Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MMdda70baca88cf5d1acadb5c94e4ad71a", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MMdda70baca88cf5d1acadb5c94e4ad71a", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>"", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MMdda70baca88cf5d1acadb5c94e4ad71a", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MMdda70baca88cf5d1acadb5c94e4ad71a/Media/ME1402a761e65a33fe46cf354f9bae282c", "ApiVersion"=>"2010-04-01"}
+  Rendered twilio/response.xml.erb (0.1ms)
+Completed 500 Internal Server Error in 94ms
+
+NoMethodError (undefined method `stringify_keys' for "index":String):
+  app/controllers/twilio_controller.rb:14:in `create'
+  app/controllers/twilio_controller.rb:7:in `index'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.1ms)
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MM3137fb7d64a7419d447a0c9672ed1188&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MM3137fb7d64a7419d447a0c9672ed1188&FromState=BC&FromCity=VANCOUVER&Body=&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MM3137fb7d64a7419d447a0c9672ed1188&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMM3137fb7d64a7419d447a0c9672ed1188%2FMedia%2FME6d891d6e2e85970459ccdaadb0cec090&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-05 08:36:35 -0800
+Processing by TwilioController#index as */*
+  Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MM3137fb7d64a7419d447a0c9672ed1188", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MM3137fb7d64a7419d447a0c9672ed1188", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>"", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MM3137fb7d64a7419d447a0c9672ed1188", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MM3137fb7d64a7419d447a0c9672ed1188/Media/ME6d891d6e2e85970459ccdaadb0cec090", "ApiVersion"=>"2010-04-01"}
+  Rendered twilio/response.xml.erb (0.1ms)
+Completed 500 Internal Server Error in 107ms
+
+ArgumentError (wrong number of arguments (4 for 1)):
+  app/controllers/twilio_controller.rb:14:in `create'
+  app/controllers/twilio_controller.rb:7:in `index'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.1ms)
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MM26ec0c7b815e4c44f49be0193c367bc6&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MM26ec0c7b815e4c44f49be0193c367bc6&FromState=BC&FromCity=VANCOUVER&Body=&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MM26ec0c7b815e4c44f49be0193c367bc6&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMM26ec0c7b815e4c44f49be0193c367bc6%2FMedia%2FME8c72d408be23da252178f8e93bbbf945&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-05 08:39:28 -0800
+Processing by TwilioController#index as */*
+  Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MM26ec0c7b815e4c44f49be0193c367bc6", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MM26ec0c7b815e4c44f49be0193c367bc6", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>"", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MM26ec0c7b815e4c44f49be0193c367bc6", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MM26ec0c7b815e4c44f49be0193c367bc6/Media/ME8c72d408be23da252178f8e93bbbf945", "ApiVersion"=>"2010-04-01"}
+  Rendered twilio/response.xml.erb (0.1ms)
+Unpermitted parameters: ToCountry, ToState, SmsMessageSid, NumMedia, ToCity, FromZip, SmsSid, FromState, FromCity, FromCountry, To, ToZip, MessageSid, AccountSid, ApiVersion
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "observations" ("Body", "From", "MediaContentType0", "MediaUrl0", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["Body", ""], ["From", "+16047203860"], ["MediaContentType0", "image/jpeg"], ["MediaUrl0", "https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MM26ec0c7b815e4c44f49be0193c367bc6/Media/ME8c72d408be23da252178f8e93bbbf945"], ["created_at", Thu, 05 Dec 2013 16:39:28 UTC +00:00], ["updated_at", Thu, 05 Dec 2013 16:39:28 UTC +00:00]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Completed 200 OK in 168ms (Views: 9.1ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-05 08:40:10 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 129ms (Views: 121.0ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:11 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:12 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:12 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:12 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:12 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:12 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 91ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:13 -0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-12-05 08:40:15 -0800
+(facebook) Request phase initiated.
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-05 08:40:47 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 97ms (Views: 96.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:48 -0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-12-05 08:40:51 -0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQDPpY7_cCs8HXYSxhGsf57CBS6_5fI_c6R0ulolmC-DFoHCH-Y0OaNEx2ENxxMGXQP6Ri0YWBLwADVRWXxsqClDl8al7ZvRk9bFGUmOnDKSOcg3OhPcm181bKIv9c7kJ-NYZx_omrKFwJRjxWXJ2PkTE9iqBYRoeC8aLxAz8QiVOSqxxAAmlSCplao1yA6vVzSvxBiGweBYlKM5Lz6m4GZkABFHqogwFZALKCuzyaem1GGDE5V4W9c942ZTf3z2Pxw3kH7ARsOMA2ald31WfHqk1Q0DaEyOXwe7OOnaLOrbouELo2hVIFau9Rdg_TXHQ9A" for 127.0.0.1 at 2013-12-05 08:40:52 -0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDPpY7_cCs8HXYSxhGsf57CBS6_5fI_c6R0ulolmC-DFoHCH-Y0OaNEx2ENxxMGXQP6Ri0YWBLwADVRWXxsqClDl8al7ZvRk9bFGUmOnDKSOcg3OhPcm181bKIv9c7kJ-NYZx_omrKFwJRjxWXJ2PkTE9iqBYRoeC8aLxAz8QiVOSqxxAAmlSCplao1yA6vVzSvxBiGweBYlKM5Lz6m4GZkABFHqogwFZALKCuzyaem1GGDE5V4W9c942ZTf3z2Pxw3kH7ARsOMA2ald31WfHqk1Q0DaEyOXwe7OOnaLOrbouELo2hVIFau9Rdg_TXHQ9A", "provider"=>"facebook"}
+  [1m[36mUser Load (13.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '625450092' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.9ms)[0m  [1mUPDATE "users" SET "oauth_token" = $1, "oauth_expires_at" = $2, "updated_at" = $3 WHERE "users"."id" = 46[0m  [["oauth_token", "CAATo6pBan90BAJ3e1SFqAXXzp2vGo44nT8rfKxHr7PxEARWMwfgQsfuovujQ4nDgx665rFtdzjy7DDnAc01ZBLbcnxxlT9r0lY8HrlKAmBLYlfipaHvoasYcZAwzcRDQYEaGWRBLKKdiHptJWV6g6qdv9lYIEZAtSRFMVPUpcchzgSyqJws175Bnw6pc30ZD"], ["oauth_expires_at", Mon, 03 Feb 2014 16:40:52 UTC +00:00], ["updated_at", Thu, 05 Dec 2013 16:40:53 UTC +00:00]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://4b58945d.ngrok.com/users/46/edit
+Completed 302 Found in 45ms (ActiveRecord: 15.7ms)
+
+
+Started GET "/users/46/edit" for 127.0.0.1 at 2013-12-05 08:40:53 -0800
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"46"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", "46"]]
+  Rendered users/edit.html.erb within layouts/application (33.7ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 46]]
+Completed 200 OK in 144ms (Views: 140.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:54 -0800
+
+
+Started PATCH "/users/46" for 127.0.0.1 at 2013-12-05 08:40:56 -0800
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tfIieM4Yzli6pskEQfMOvHU7BpGw/GeMgUL45fq6OLM=", "user"=>{"name"=>"Caleb Del Begio", "email"=>"delbegio@gmail.com", "phone"=>"604-720-3860"}, "commit"=>"Update User", "id"=>"46"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", "46"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://4b58945d.ngrok.com/observations
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/observations" for 127.0.0.1 at 2013-12-05 08:40:56 -0800
+Processing by ObservationsController#index as HTML
+  [1m[35mObservation Load (0.7ms)[0m  SELECT "observations".* FROM "observations"
+  Rendered observations/index.html.erb within layouts/application (9.6ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 46]]
+Completed 200 OK in 208ms (Views: 95.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:56 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:56 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:56 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:56 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:56 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:40:57 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/twilio.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/send_text.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/snow.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/verfications.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:11 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/send_text.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:12 -0800
+
+
+Started GET "/assets/snow.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:13 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:13 -0800
+
+
+Started GET "/assets/twilio.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:13 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:13 -0800
+
+
+Started GET "/assets/verfications.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:13 -0800
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:13 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:13 -0800
+
+
+Started GET "/observations/new" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+Processing by ObservationsController#new as HTML
+  Rendered observations/new.html.erb within layouts/application (4.7ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 46]]
+Completed 200 OK in 96ms (Views: 94.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/send_text.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/snow.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:49 -0800
+
+
+Started GET "/assets/twilio.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:50 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:50 -0800
+
+
+Started GET "/assets/verfications.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:50 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:50 -0800
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-12-05 08:41:50 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-05 08:48:54 -0800
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 46]]
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 95ms (Views: 93.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:55 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/send_text.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/snow.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/twilio.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/verfications.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 08:48:56 -0800
+
+
+Started GET "/observations" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+Processing by ObservationsController#index as HTML
+  [1m[35mObservation Load (0.5ms)[0m  SELECT "observations".* FROM "observations"
+  Rendered observations/index.html.erb within layouts/application (6.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 46]]
+Completed 200 OK in 179ms (Views: 96.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:02 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/send_text.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/twilio.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/snow.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/verfications.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 08:49:03 -0800
+
+
+Started GET "/observations" for 127.0.0.1 at 2013-12-05 08:50:15 -0800
+Processing by ObservationsController#index as HTML
+  [1m[35mObservation Load (0.5ms)[0m  SELECT "observations".* FROM "observations"
+  Rendered observations/index.html.erb within layouts/application (6.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 46]]
+Completed 200 OK in 198ms (Views: 104.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:50:15 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:50:15 -0800
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:50:15 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:50:15 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:50:15 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:50:15 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:50:15 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:15 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:15 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/snow.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/send_text.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/twilio.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/verfications.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 08:50:16 -0800
+
+
+Started GET "/observations" for 127.0.0.1 at 2013-12-05 08:51:07 -0800
+Processing by ObservationsController#index as HTML
+  [1m[35mObservation Load (0.6ms)[0m  SELECT "observations".* FROM "observations"
+  Rendered observations/index.html.erb within layouts/application (5.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 46]]
+Completed 200 OK in 170ms (Views: 64.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:08 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:09 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:09 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:09 -0800
+
+
+Started GET "/assets/snow.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:09 -0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:09 -0800
+
+
+Started GET "/assets/send_text.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:09 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:09 -0800
+
+
+Started GET "/assets/twilio.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:09 -0800
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:09 -0800
+
+
+Started GET "/assets/verfications.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:09 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 08:51:09 -0800
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MM4d185b2630d8573417a6e301ad88d6a8&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MM4d185b2630d8573417a6e301ad88d6a8&FromState=BC&FromCity=VANCOUVER&Body=Rogers+pass+observations&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MM4d185b2630d8573417a6e301ad88d6a8&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMM4d185b2630d8573417a6e301ad88d6a8%2FMedia%2FMEfe618dbd8fac7e929d9d38e49eb98065&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-05 08:51:57 -0800
+Processing by TwilioController#index as */*
+  Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MM4d185b2630d8573417a6e301ad88d6a8", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MM4d185b2630d8573417a6e301ad88d6a8", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>"Rogers pass observations", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MM4d185b2630d8573417a6e301ad88d6a8", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MM4d185b2630d8573417a6e301ad88d6a8/Media/MEfe618dbd8fac7e929d9d38e49eb98065", "ApiVersion"=>"2010-04-01"}
+  Rendered twilio/response.xml.erb (0.1ms)
+Unpermitted parameters: ToCountry, ToState, SmsMessageSid, NumMedia, ToCity, FromZip, SmsSid, FromState, FromCity, FromCountry, To, ToZip, MessageSid, AccountSid, ApiVersion
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "observations" ("Body", "From", "MediaContentType0", "MediaUrl0", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["Body", "Rogers pass observations"], ["From", "+16047203860"], ["MediaContentType0", "image/jpeg"], ["MediaUrl0", "https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MM4d185b2630d8573417a6e301ad88d6a8/Media/MEfe618dbd8fac7e929d9d38e49eb98065"], ["created_at", Thu, 05 Dec 2013 16:51:57 UTC +00:00], ["updated_at", Thu, 05 Dec 2013 16:51:57 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Completed 200 OK in 162ms (Views: 5.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/observations" for 127.0.0.1 at 2013-12-05 08:52:00 -0800
+Processing by ObservationsController#index as HTML
+  [1m[36mObservation Load (0.5ms)[0m  [1mSELECT "observations".* FROM "observations"[0m
+  Rendered observations/index.html.erb within layouts/application (3.5ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 46]]
+Completed 200 OK in 200ms (Views: 92.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:52:00 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:52:00 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:52:00 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:52:00 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:52:00 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:52:00 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:52:00 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:00 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/send_text.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/snow.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:01 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:02 -0800
+
+
+Started GET "/assets/twilio.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:02 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:02 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:02 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:02 -0800
+
+
+Started GET "/assets/verfications.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:02 -0800
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:02 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:02 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 08:52:02 -0800
+
+
+Started GET "/observations" for 127.0.0.1 at 2013-12-05 08:53:37 -0800
+Processing by ObservationsController#index as HTML
+ERROR: compiling _app_views_observations_index_html_erb___4547296118060895650_70188505347920 RAISED /Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/app/views/observations/index.html.erb:27: syntax error, unexpected '[', expecting '('
+...t_buffer.append=( observation.[:Body] );@output_buffer.safe_...
+...                               ^
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/app/views/observations/index.html.erb:45: syntax error, unexpected keyword_end, expecting ')'
+';       end 
+            ^
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/app/views/observations/index.html.erb:124: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/app/views/observations/index.html.erb:126: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_observations_index_html_erb___4547296118060895650_70188505347920(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "observations/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='   
+';@output_buffer.append=( javascript_include_tag "jquery" );@output_buffer.safe_append='
+    <!-- Header and Nav -->
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="panel">
+        <h1>Feed Template</h1>
+      </div>
+    </div>
+  </div>
+  <!-- End Header and Nav -->
+  <div class="row">
+ <!-- Nav Sidebar -->
+    <!-- Main Feed -->
+    <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+    <div class="large-7 columns">
+ 
+      <!-- Feed Entry -->
+';       @observations.each do |observation| 
+@output_buffer.safe_append='      <div class="row">
+        <div class="large-2 columns small-3">';@output_buffer.append=( image_tag observation.photo );@output_buffer.safe_append='</div>
+
+        <div class="large-10 columns">
+          <p>';@output_buffer.append=( image_tag observation.photo );@output_buffer.safe_append='</p>
+          <img src="';@output_buffer.append=( observation[:MediaUrl0] );@output_buffer.safe_append='">
+          <p>';@output_buffer.append=( observation.description );@output_buffer.safe_append='</p>
+          ';@output_buffer.append=( observation.[:Body] );@output_buffer.safe_append='
+          <ul class="inline-list">
+            <li><a href="">Reply</a></li>
+            <li><a href="">Share</a></li>
+          </ul>
+ 
+ 
+          <h6>2 Comments</h6>
+          <div class="row">
+            <div class="large-2 columns small-3"><img src="http://placehold.it/50x50&text=[img]" /></div>
+            <div class="large-10 columns"><p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit</p></div>
+          </div>
+          <div class="row">
+            <div class="large-2 columns small-3"><img src="http://placehold.it/50x50&text=[img]" /></div>
+            <div class="large-10 columns"><p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit</p></div>
+          </div>
+        </div>
+      </div>
+';       end 
+@output_buffer.safe_append='
+      <!-- End Feed Entry -->
+ 
+      <hr />
+ 
+      <!-- Feed Entry -->
+      
+ 
+    </div>
+ 
+    <!-- Right Sidebar -->
+    <!-- On small devices this column is hidden -->
+    <aside class="large-5 columns">
+      <div class="panel">
+          <h3>Forecast</h3>
+          <canvas  id="myChart" width="auto" height="auto"></canvas>
+          <a href="#" class="small button">Full Forecast</a>
+      </div>
+    </aside>
+ 
+  </div>
+ 
+ 
+  <!-- Footer -->
+ 
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-5 columns">
+          <p>© Copyright no one at all. Go to town.</p>
+        </div>
+        <div class="large-7 columns">
+          <ul class="inline-list right">
+            <li><a href="#">Section 1</a></li>
+            <li><a href="#">Section 2</a></li>
+            <li><a href="#">Section 3</a></li>
+            <li><a href="#">Section 4</a></li>
+            <li><a href="#">Section 5</a></li>
+            <li><a href="#">Section 6</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+';@output_buffer.append=( include_gon );@output_buffer.safe_append='
+  <script>
+ $(document).ready(function() {
+var data = {
+  labels : [gon.timearray1,gon.timearray2,gon.timearray3],
+  datasets : [
+    {
+      fillColor : "rgba(220,220,220,0.5)",
+      strokeColor : "rgba(220,220,220,1)",
+      data : [gon.alp1,gon.alp2,gon.alp3]
+    },
+    {
+      fillColor : "rgba(151,187,205,0.5)",
+      strokeColor : "rgba(151,187,205,1)",
+      data : [gon.tln1,gon.tln2,gon.tln3]
+    },
+       {
+      fillColor : "rgba(50,40,220,0.5)",
+      strokeColor : "rgba(220,220,220,1)",
+      data : [gon.btl1,gon.btl2,gon.btl3]
+    },
+    
+  ]
+
+}
+
+var ctx = document.getElementById("myChart").getContext("2d");
+var myNewChart = new Chart(ctx).Bar(data,options);
+  });
+
+  </script>
+
+    ';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `module_eval'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `compile'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:248:in `block in compile!'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `synchronize'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `compile!'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:142:in `block in render'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications.rb:161:in `instrument'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/calebdelbegio/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:383:in `_run__513814850676955408__process_action__callbacks'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:136:in `process'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal.rb:231:in `block in action'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/omniauth-1.1.4/lib/omniauth/strategy.rb:184:in `call!'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/omniauth-1.1.4/lib/omniauth/strategy.rb:164:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/omniauth-1.1.4/lib/omniauth/builder.rb:49:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activerecord-4.0.1/lib/active_record/query_cache.rb:36:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activerecord-4.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activerecord-4.0.1/lib/active_record/migration.rb:369:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:373:in `_run__970576912889079247__call__callbacks'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/calebdelbegio/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/Users/calebdelbegio/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/Users/calebdelbegio/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered observations/index.html.erb within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 94ms
+
+ActionView::Template::Error (/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/app/views/observations/index.html.erb:27: syntax error, unexpected '[', expecting '('
+...t_buffer.append=( observation.[:Body] );@output_buffer.safe_...
+...                               ^
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/app/views/observations/index.html.erb:45: syntax error, unexpected keyword_end, expecting ')'
+';       end 
+            ^
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/app/views/observations/index.html.erb:124: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/calebdelbegio/bitmaker_exercises/rails_projects/avalanche/app/views/observations/index.html.erb:126: syntax error, unexpected keyword_end, expecting ')'):
+    24:           <p><%= image_tag observation.photo %></p>
+    25:           <img src="<%= observation[:MediaUrl0] %>">
+    26:           <p><%= observation.description %></p>
+    27:           <%= observation.[:Body] %>
+    28:           <ul class="inline-list">
+    29:             <li><a href="">Reply</a></li>
+    30:             <li><a href="">Share</a></li>
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `module_eval'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `compile'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:248:in `block in compile!'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `synchronize'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `compile!'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:142:in `block in render'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications.rb:161:in `instrument'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:17:in `render'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+  vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:97:in `render'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:16:in `render'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/calebdelbegio/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  vendor/bundle/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:189:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:383:in `_run__513814850676955408__process_action__callbacks'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  vendor/bundle/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:136:in `process'
+  vendor/bundle/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:44:in `process'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal.rb:195:in `dispatch'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_controller/metal.rb:231:in `block in action'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:48:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:71:in `block in call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `each'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:680:in `call'
+  vendor/bundle/gems/omniauth-1.1.4/lib/omniauth/strategy.rb:184:in `call!'
+  vendor/bundle/gems/omniauth-1.1.4/lib/omniauth/strategy.rb:164:in `call'
+  vendor/bundle/gems/omniauth-1.1.4/lib/omniauth/builder.rb:49:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/flash.rb:241:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  vendor/bundle/gems/activerecord-4.0.1/lib/active_record/query_cache.rb:36:in `call'
+  vendor/bundle/gems/activerecord-4.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  vendor/bundle/gems/activerecord-4.0.1/lib/active_record/migration.rb:369:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:373:in `_run__970576912889079247__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/calebdelbegio/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/calebdelbegio/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/calebdelbegio/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/observations" for 127.0.0.1 at 2013-12-05 08:54:24 -0800
+Processing by ObservationsController#index as HTML
+  [1m[36mObservation Load (0.5ms)[0m  [1mSELECT "observations".* FROM "observations"[0m
+  Rendered observations/index.html.erb within layouts/application (5.4ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 46]]
+Completed 200 OK in 176ms (Views: 63.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:25 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/send_text.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/snow.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/twilio.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/verfications.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 08:54:26 -0800
+
+
+Started GET "/observations" for 127.0.0.1 at 2013-12-05 08:58:56 -0800
+Processing by ObservationsController#index as HTML
+  [1m[36mObservation Load (0.5ms)[0m  [1mSELECT "observations".* FROM "observations"[0m
+  Rendered observations/index.html.erb within layouts/application (3.5ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 46]]
+Completed 200 OK in 185ms (Views: 96.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:57 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/send_text.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/snow.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/verfications.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/twilio.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 08:58:58 -0800
+
+
+Started GET "/observations" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+Processing by ObservationsController#index as HTML
+  [1m[36mObservation Load (1.0ms)[0m  [1mSELECT "observations".* FROM "observations"[0m
+  Rendered observations/index.html.erb within layouts/application (3.7ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 46]]
+Completed 200 OK in 167ms (Views: 87.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:02 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:03 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:03 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:03 -0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:03 -0800
+
+
+Started GET "/assets/send_text.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:03 -0800
+
+
+Started GET "/assets/snow.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:03 -0800
+
+
+Started GET "/assets/twilio.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:03 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:03 -0800
+
+
+Started GET "/assets/verfications.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:03 -0800
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:03 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:03 -0800
+
+
+Started GET "/twilio?ToCountry=CA&MediaContentType0=image%2Fjpeg&ToState=BC&SmsMessageSid=MMd316f886ddf3cb257b219f5b4874079f&NumMedia=1&ToCity=RICHMOND&FromZip=&SmsSid=MMd316f886ddf3cb257b219f5b4874079f&FromState=BC&FromCity=VANCOUVER&Body=Mr+sharpe&FromCountry=CA&To=%2B16042272070&ToZip=&MessageSid=MMd316f886ddf3cb257b219f5b4874079f&AccountSid=ACfd6d259169da6e7b70c24d25eefba271&From=%2B16047203860&MediaUrl0=https%3A%2F%2Fapi.twilio.com%2F2010-04-01%2FAccounts%2FACfd6d259169da6e7b70c24d25eefba271%2FMessages%2FMMd316f886ddf3cb257b219f5b4874079f%2FMedia%2FMEc9f7aea922b7cf549bd098f8fa55aaee&ApiVersion=2010-04-01" for 127.0.0.1 at 2013-12-05 08:59:10 -0800
+Processing by TwilioController#index as */*
+  Parameters: {"ToCountry"=>"CA", "MediaContentType0"=>"image/jpeg", "ToState"=>"BC", "SmsMessageSid"=>"MMd316f886ddf3cb257b219f5b4874079f", "NumMedia"=>"1", "ToCity"=>"RICHMOND", "FromZip"=>"", "SmsSid"=>"MMd316f886ddf3cb257b219f5b4874079f", "FromState"=>"BC", "FromCity"=>"VANCOUVER", "Body"=>"Mr sharpe", "FromCountry"=>"CA", "To"=>"+16042272070", "ToZip"=>"", "MessageSid"=>"MMd316f886ddf3cb257b219f5b4874079f", "AccountSid"=>"ACfd6d259169da6e7b70c24d25eefba271", "From"=>"+16047203860", "MediaUrl0"=>"https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MMd316f886ddf3cb257b219f5b4874079f/Media/MEc9f7aea922b7cf549bd098f8fa55aaee", "ApiVersion"=>"2010-04-01"}
+  Rendered twilio/response.xml.erb (0.1ms)
+Unpermitted parameters: ToCountry, ToState, SmsMessageSid, NumMedia, ToCity, FromZip, SmsSid, FromState, FromCity, FromCountry, To, ToZip, MessageSid, AccountSid, ApiVersion
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "observations" ("Body", "From", "MediaContentType0", "MediaUrl0", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["Body", "Mr sharpe"], ["From", "+16047203860"], ["MediaContentType0", "image/jpeg"], ["MediaUrl0", "https://api.twilio.com/2010-04-01/Accounts/ACfd6d259169da6e7b70c24d25eefba271/Messages/MMd316f886ddf3cb257b219f5b4874079f/Media/MEc9f7aea922b7cf549bd098f8fa55aaee"], ["created_at", Thu, 05 Dec 2013 16:59:10 UTC +00:00], ["updated_at", Thu, 05 Dec 2013 16:59:10 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 106ms (Views: 6.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/observations" for 127.0.0.1 at 2013-12-05 08:59:16 -0800
+Processing by ObservationsController#index as HTML
+  [1m[35mObservation Load (0.5ms)[0m  SELECT "observations".* FROM "observations"
+  Rendered observations/index.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 46]]
+Completed 200 OK in 194ms (Views: 71.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/snow.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/twilio.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/send_text.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/verfications.css?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/send_text.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/twilio.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/snow.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:17 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:18 -0800
+
+
+Started GET "/assets/verfications.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:18 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:18 -0800
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-12-05 08:59:18 -0800

@@ -19,9 +19,12 @@
       <% @observations.each do |observation| %>
       <div class="row">
         <div class="large-2 columns small-3"><%= image_tag observation.photo %></div>
+
         <div class="large-10 columns">
           <p><%= image_tag observation.photo %></p>
+          <img src="<%= observation[:MediaUrl0] %>">
           <p><%= observation.description %></p>
+          <%= observation[:Body] %>
           <ul class="inline-list">
             <li><a href="">Reply</a></li>
             <li><a href="">Share</a></li>
