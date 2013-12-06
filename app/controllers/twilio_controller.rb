@@ -48,7 +48,7 @@
   end
   
   def mms_params
-    params.permit(:From, :MediaUrl0, :MediaContentType0, :Body)
+    params.permit(:From, :MediaUrl0, :MediaContentType0, :Body, :content, :name, :tag_list)
   end
 end
   def forecast

@@ -7,6 +7,7 @@ Avalanche::Application.routes.draw do
   get "twilio/show"
   resources :users
   resources :twilio
+  get 'tags/:tag', to: 'observations#index', as: :tag
   resources :observations
   match 'auth/:provider/callback', to: 'sessions#create', via: [:get, :post]
   match 'auth/failure', to: redirect('/'), via: [:get, :post]

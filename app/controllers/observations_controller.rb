@@ -84,7 +84,7 @@ class ObservationsController < ApplicationController
   private
   
   def observation_params
-    params.require(:observation).permit(:photo, :description)
+    params.require(:observation).permit(:photo, :description, :content, :name, :tag_list)
   end
 
   

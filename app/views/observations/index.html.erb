@@ -25,6 +25,8 @@
           <img src="<%= observation[:MediaUrl0] %>">
           <p><%= observation.description %></p>
           <%= observation[:Body] %>
+          <p>
+<p>Tags: <%= raw observation.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></p>
           <ul class="inline-list">
             <li><a href="">Reply</a></li>
             <li><a href="">Share</a></li>
